@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Game</title>
+    <style>
+        /* Define a grid with 3 columns and auto rows */
+        #cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);  /* 4 equal columns */
+            grid-gap: 20px;  /* space between cards */
+            justify-content: center;  /* center the grid */
+            margin-top: 20px;
+        }
+        .card {
+            width: 150px;
+            height: 200px;
+            text-align: center;
+            border: 2px solid black;
+            box-sizing: border-box;
+            display: flex;
+						justify-content:center;
+						align-items:center;
+						transition: border-color 0.3s ease;
+						position:relative;
+        }
+        .card img {
+            max-width: 100%;
+            max-height: 100%;
+						object-fit: contain;
+        }
+				.card:hover{
+					border-color:#dd0034;
+					cursor:pointer;
+				}
+    </style>
+</head>
+<body>
+    <h1>Set Game</h1>
+    <div id="cards">
+        {% for card_url in cards %}
+        <div class="card">
+            <img src="{{ card_url }}" alt="Card">
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
+
