@@ -20,8 +20,9 @@
             display: flex;
 						justify-content:center;
 						align-items:center;
-						transition: border-color 0.3s ease;
+						transition: border-color 0.3s ease, border-width=0.3s ease;
 						position:relative;
+						cursor:pointer;
         }
         .card img {
             max-width: 100%;
@@ -32,17 +33,71 @@
 					border-color:#dd0034;
 					cursor:pointer;
 				}
+				.card.selected{
+					border-color:'#0034ee';
+					border-width:4px;
+				}	
+				.card.selected:hover{
+					border-color:'#0012aa';
+				}
     </style>
 </head>
 <body>
-    <h1>Set Game</h1>
+    <h2 style='text-align:center'>Find a SET!</h1>
     <div id="cards">
         {% for card_url in cards %}
-        <div class="card">
+        <div class="card" data-index='{{loop.index0}}'>
             <img src="{{ card_url }}" alt="Card">
         </div>
         {% endfor %}
     </div>
+
+<script>
+    let selectedCards = [];  // Array to store selected cards
+
+    const cardElements = document.querySelectorAll('.card');
+
+    cardElements.forEach(card => {
+        card.addEventListener('click', () => {
+            const cardIndex = card.getAttribute('data-index');
+
+            // If the card is already selected, deselect it
+            if (card.classList.contains('selected')) {
+                card.classList.remove('selected');
+                selectedCards = selectedCards.filter(index => index !== cardIndex);
+            } else {
+                // If less than 3 cards are selected, select the card
+                if (selectedCards.length < 3) {
+                    card.classList.add('selected');
+                    selectedCards.push(cardIndex);
+                }
+            }
+
+            // Send selected cards to Flask
+            if (selectedCards.length === 3) {
+								console.log(selectedCards);
+                fetch('/select_cards', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ selectedCards: selectedCards })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Process response, e.g., show message if it's a valid set
+                    console.log(data.message);
+                    alert(data.message);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+        });
+    });
+</script>
+
+
 </body>
 </html>
 
