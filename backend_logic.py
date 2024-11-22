@@ -2,6 +2,9 @@ import os
 import random
 import itertools
 import time
+import copy
+import json
+from datetime import datetime
 
 def is_set(cards):
 	split_cards = [s.split('_') for s in cards]
@@ -25,10 +28,18 @@ random.shuffle(shuffled_deck)
 
 
 set_game = {}
+user_behavior = {
+	'mistakes_more':{'global_time':[],'trial_time':[]},
+	'correct_more':{'global_time':[],'trial_time':[]},
+	'mistakes_set':{'global_time':[],'trial_time':[],'cards':[]},
+	'correct_set':{'global_time':[],'trial_time':[],'set':[]},
+}
+trial_behavior = copy.deepcopy(user_behavior)
 disp_counter = 1
 deck_position = 12
 board = shuffled_deck[:deck_position]
 deck_remaining = shuffled_deck[deck_position:]
+global_start=round(time.time(),3)
 rep=True
 while rep:
 	
@@ -38,7 +49,7 @@ while rep:
 	[print(i) for i in board]
 	
 	# Time
-	trial_start = time.time()
+	trial_start = round(time.time(),3)
 
 	# Print sets (testing only)
 	display = find_sets(board)
@@ -53,7 +64,7 @@ while rep:
 		print('Game Over!')
 		break
 	else:
-	  # Store Data 
+	  # Store Current Display
 		set_game[board_label]={
 			'board':board,
 			'number_sets':display['number_sets'],
@@ -61,24 +72,37 @@ while rep:
 		
 		# User input
 		select = input('Pick cards:').split()
+		resp_time = round(time.time(),3)
 		if select[0] == 'more': # MORE cards
 			if display['number_sets']==0:
-				print('You got me dude!')
-	      # Correct More
+				print('You got me dude!') # CORRECT more
+				trial_behavior['correct_more']['global_time'].extend([round(resp_time-global_start,3)])
+				trial_behavior['correct_more']['trial_time'].extend([round(resp_time-trial_start,3)])
+				# Store User Behavior
+				set_game[board_label]['player_behavior']=copy.deepcopy(trial_behavior)
+				trial_behavior=copy.deepcopy(user_behavior)
+				# To next trial
 				disp_counter=disp_counter+1
 				if len(deck_remaining)>0:
 					board.extend(deck_remaining[:3])
 					deck_remaining=deck_remaining[3:]
 			else:
-				print('There\'s at least one set!') 
-				# Mistake More
+				print('There\'s at least one set!') # MISTAKE more
+				trial_behavior['mistakes_more']['global_time'].extend([round(resp_time-global_start,3)])
+				trial_behavior['mistakes_more']['trial_time'].extend([round(resp_time-trial_start,3)])
 		else: # THREE cards selected
 			int_sel = [int(x) for x in select]
 			selected_cards = [board[i] for i in int_sel]	
 			# Evaluate selextion
 			if is_set(selected_cards):
-				print('That\'s a set!')
-				# Correct Set
+				print('That\'s a set!') # CORRECT set
+				trial_behavior['correct_set']['global_time'].extend([round(resp_time-global_start,3)])
+				trial_behavior['correct_set']['trial_time'].extend([round(resp_time-trial_start,3)])
+				trial_behavior['correct_set']['set'].extend([selected_cards])
+				# Store User Behavior
+				set_game[board_label]['player_behavior']=copy.deepcopy(trial_behavior)
+				trial_behavior=copy.deepcopy(user_behavior)
+				# To next trial
 				disp_counter=disp_counter+1
 				# Eliminate set from display
 				board = [x for i, x in enumerate(board) if i not in int_sel]
@@ -87,6 +111,10 @@ while rep:
 					board.extend(deck_remaining[:3])
 					deck_remaining=deck_remaining[3:]
 			else:
-				print('That ain\'t no set!')
-				# Mistake Set
+				print('That ain\'t no set!') # MISTAKE set
+				trial_behavior['mistakes_set']['global_time'].extend([round(resp_time-global_start,3)])
+				trial_behavior['mistakes_set']['trial_time'].extend([round(resp_time-trial_start,3)])
+				trial_behavior['mistakes_set']['cards'].extend([selected_cards])
 
+with open('set_data_'+datetime.now().strftime('%Y-%m-%d %H:%M:%S')+'.json','w') as f:
+	json.dump(set_game,f,indent=2)
