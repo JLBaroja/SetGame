@@ -27,7 +27,7 @@ def poly_diamond(center,width=1.45,height=.425):
 	return poly_points
 
 def poly_ellipse(center,a=1.65,b=.15):
-	phi = np.linspace(0,np.pi*2,100)	
+	phi = np.linspace(0,np.pi*2,1000)	
 	r = a*b/np.sqrt(b*np.cos(phi)**2+a*np.sin(phi)**2)
 	x = r*np.cos(phi) + center[0]
 	y = r*np.sin(phi) + center[1]
@@ -64,8 +64,8 @@ def make_card(col_indx,num,shape,shade):
 	plt.grid(True)
 	for i in range(len(y)):
 		polygon = poly_fun(center=[0,y[i]])
-		plt.plot(polygon[:,0],polygon[:,1],color=col,lw=3)
-		plt.fill(polygon[:,0],polygon[:,1],color=col+shd)
+		plt.plot(polygon[:,0],polygon[:,1],color=col,lw=3,solid_capstyle='round')
+		plt.fill(polygon[:,0],polygon[:,1],color=col+shd,joinstyle='round')
 		plt.subplots_adjust(left=0,bottom=0,right=1,top=1)
 	plt.xlim(-card_width/2,card_width/2)
 	plt.ylim(-card_height/2,card_height/2)

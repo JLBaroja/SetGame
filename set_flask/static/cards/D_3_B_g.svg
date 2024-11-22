@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-11-16T19:22:15.507114</dc:date>
+    <dc:date>2024-11-22T00:56:00.854423</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,7 +36,7 @@ L 90 164.7
 L 37.8 180 
 L 90 195.3 
 z
-" clip-path="url(#p6dcda8855c)" style="fill: none"/>
+" clip-path="url(#pdfb7e08cca)" style="fill: none"/>
    </g>
    <g id="patch_3">
     <path d="M 90 141.3 
@@ -45,7 +45,7 @@ L 90 110.7
 L 37.8 126 
 L 90 141.3 
 z
-" clip-path="url(#p6dcda8855c)" style="fill: none"/>
+" clip-path="url(#pdfb7e08cca)" style="fill: none"/>
    </g>
    <g id="patch_4">
     <path d="M 90 87.3 
@@ -54,7 +54,7 @@ L 90 56.7
 L 37.8 72 
 L 90 87.3 
 z
-" clip-path="url(#p6dcda8855c)" style="fill: none"/>
+" clip-path="url(#pdfb7e08cca)" style="fill: none"/>
    </g>
    <g id="line2d_1">
     <path d="M 90 195.3 
@@ -62,7 +62,7 @@ L 142.2 180
 L 90 164.7 
 L 37.8 180 
 L 90 195.3 
-" clip-path="url(#p6dcda8855c)" style="fill: none; stroke: #00f6a2; stroke-width: 3; stroke-linecap: square"/>
+" clip-path="url(#pdfb7e08cca)" style="fill: none; stroke: #00f6a2; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="line2d_2">
     <path d="M 90 141.3 
@@ -70,7 +70,7 @@ L 142.2 126
 L 90 110.7 
 L 37.8 126 
 L 90 141.3 
-" clip-path="url(#p6dcda8855c)" style="fill: none; stroke: #00f6a2; stroke-width: 3; stroke-linecap: square"/>
+" clip-path="url(#pdfb7e08cca)" style="fill: none; stroke: #00f6a2; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="line2d_3">
     <path d="M 90 87.3 
@@ -78,12 +78,12 @@ L 142.2 72
 L 90 56.7 
 L 37.8 72 
 L 90 87.3 
-" clip-path="url(#p6dcda8855c)" style="fill: none; stroke: #00f6a2; stroke-width: 3; stroke-linecap: square"/>
+" clip-path="url(#pdfb7e08cca)" style="fill: none; stroke: #00f6a2; stroke-width: 3; stroke-linecap: round"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p6dcda8855c">
+  <clipPath id="pdfb7e08cca">
    <rect x="0" y="0" width="180" height="252"/>
   </clipPath>
  </defs>
