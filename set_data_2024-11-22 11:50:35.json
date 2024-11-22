@@ -1,0 +1,1771 @@
+{
+  "Trial1": {
+    "board": [
+      "E_1_T_o.svg",
+      "R_3_B_o.svg",
+      "R_1_B_p.svg",
+      "E_1_S_p.svg",
+      "E_3_T_o.svg",
+      "E_1_T_g.svg",
+      "R_2_B_g.svg",
+      "D_3_T_g.svg",
+      "D_2_S_o.svg",
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_2_T_g.svg"
+    ],
+    "number_sets": 4,
+    "sets_in_board": [
+      [
+        "E_1_T_o.svg",
+        "R_3_B_o.svg",
+        "D_2_S_o.svg"
+      ],
+      [
+        "E_1_T_o.svg",
+        "E_1_T_g.svg",
+        "E_1_T_p.svg"
+      ],
+      [
+        "R_3_B_o.svg",
+        "R_1_B_p.svg",
+        "R_2_B_g.svg"
+      ],
+      [
+        "E_1_T_g.svg",
+        "D_3_T_g.svg",
+        "R_2_T_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [
+          5.43,
+          6.801
+        ],
+        "trial_time": [
+          0.892,
+          1.371
+        ]
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [
+          2.767,
+          4.538,
+          8.636
+        ],
+        "trial_time": [
+          2.767,
+          1.77,
+          1.835
+        ],
+        "cards": [
+          [
+            "E_1_S_p.svg",
+            "E_3_T_o.svg",
+            "E_1_T_g.svg"
+          ],
+          [
+            "R_1_B_p.svg",
+            "R_3_B_o.svg",
+            "E_3_T_o.svg"
+          ],
+          [
+            "R_1_B_p.svg",
+            "R_3_B_o.svg",
+            "R_1_B_p.svg"
+          ]
+        ]
+      },
+      "correct_set": {
+        "global_time": [
+          10.204
+        ],
+        "trial_time": [
+          1.568
+        ],
+        "set": [
+          [
+            "E_1_T_o.svg",
+            "D_2_S_o.svg",
+            "R_3_B_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial2": {
+    "board": [
+      "R_1_B_p.svg",
+      "E_1_S_p.svg",
+      "E_3_T_o.svg",
+      "E_1_T_g.svg",
+      "R_2_B_g.svg",
+      "D_3_T_g.svg",
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_2_T_g.svg",
+      "R_2_B_o.svg",
+      "R_1_S_o.svg",
+      "R_1_S_g.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "E_1_S_p.svg",
+        "D_3_T_g.svg",
+        "R_2_B_o.svg"
+      ],
+      [
+        "E_1_T_g.svg",
+        "D_3_T_g.svg",
+        "R_2_T_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          12.286
+        ],
+        "trial_time": [
+          2.082
+        ],
+        "set": [
+          [
+            "E_1_S_p.svg",
+            "D_3_T_g.svg",
+            "R_2_B_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial3": {
+    "board": [
+      "R_1_B_p.svg",
+      "E_3_T_o.svg",
+      "E_1_T_g.svg",
+      "R_2_B_g.svg",
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_2_T_g.svg",
+      "R_1_S_o.svg",
+      "R_1_S_g.svg",
+      "D_3_S_g.svg",
+      "E_2_B_o.svg",
+      "R_1_T_o.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "R_1_B_p.svg",
+        "R_1_S_g.svg",
+        "R_1_T_o.svg"
+      ],
+      [
+        "E_1_T_g.svg",
+        "R_2_B_g.svg",
+        "D_3_S_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          14.324
+        ],
+        "trial_time": [
+          2.038
+        ],
+        "set": [
+          [
+            "R_1_B_p.svg",
+            "R_1_S_g.svg",
+            "R_1_T_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial4": {
+    "board": [
+      "E_3_T_o.svg",
+      "E_1_T_g.svg",
+      "R_2_B_g.svg",
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_2_T_g.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "E_2_B_o.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_1_S_p.svg"
+    ],
+    "number_sets": 3,
+    "sets_in_board": [
+      [
+        "E_3_T_o.svg",
+        "R_2_B_g.svg",
+        "D_1_S_p.svg"
+      ],
+      [
+        "E_1_T_g.svg",
+        "R_2_B_g.svg",
+        "D_3_S_g.svg"
+      ],
+      [
+        "E_3_B_o.svg",
+        "R_2_T_g.svg",
+        "D_1_S_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          16.553
+        ],
+        "trial_time": [
+          2.228
+        ],
+        "set": [
+          [
+            "E_3_T_o.svg",
+            "R_2_B_g.svg",
+            "D_1_S_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial5": {
+    "board": [
+      "E_1_T_g.svg",
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_2_T_g.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "E_2_B_o.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "D_1_B_o.svg",
+      "R_1_S_p.svg"
+    ],
+    "number_sets": 1,
+    "sets_in_board": [
+      [
+        "E_1_T_g.svg",
+        "D_1_B_o.svg",
+        "R_1_S_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          20.19
+        ],
+        "trial_time": [
+          3.637
+        ],
+        "set": [
+          [
+            "E_1_T_g.svg",
+            "D_1_B_o.svg",
+            "R_1_S_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial6": {
+    "board": [
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_2_T_g.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "E_2_B_o.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "D_2_S_p.svg"
+    ],
+    "number_sets": 1,
+    "sets_in_board": [
+      [
+        "R_2_T_g.svg",
+        "E_2_B_o.svg",
+        "D_2_S_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          22.382
+        ],
+        "trial_time": [
+          2.192
+        ],
+        "set": [
+          [
+            "R_2_T_g.svg",
+            "E_2_B_o.svg",
+            "D_2_S_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial7": {
+    "board": [
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "E_3_B_g.svg",
+      "D_2_B_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "E_3_B_p.svg"
+    ],
+    "number_sets": 0,
+    "sets_in_board": [],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [
+          26.117
+        ],
+        "trial_time": [
+          0.839
+        ]
+      },
+      "mistakes_set": {
+        "global_time": [
+          25.278
+        ],
+        "trial_time": [
+          2.896
+        ],
+        "cards": [
+          [
+            "E_3_B_o.svg",
+            "D_3_S_g.svg",
+            "R_1_S_o.svg"
+          ]
+        ]
+      },
+      "correct_set": {
+        "global_time": [],
+        "trial_time": [],
+        "set": []
+      }
+    }
+  },
+  "Trial8": {
+    "board": [
+      "E_3_B_o.svg",
+      "E_1_T_p.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "E_3_B_g.svg",
+      "D_2_B_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "E_3_B_p.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "E_3_B_o.svg",
+        "E_3_B_g.svg",
+        "E_3_B_p.svg"
+      ],
+      [
+        "D_3_S_g.svg",
+        "E_3_B_g.svg",
+        "R_3_T_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          43.8
+        ],
+        "trial_time": [
+          17.682
+        ],
+        "set": [
+          [
+            "E_3_B_o.svg",
+            "E_3_B_g.svg",
+            "E_3_B_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial9": {
+    "board": [
+      "E_1_T_p.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "D_2_B_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "R_3_S_g.svg",
+      "E_2_S_g.svg",
+      "D_2_B_g.svg"
+    ],
+    "number_sets": 0,
+    "sets_in_board": [],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [
+          57.898
+        ],
+        "trial_time": [
+          2.577
+        ]
+      },
+      "mistakes_set": {
+        "global_time": [
+          55.321
+        ],
+        "trial_time": [
+          11.521
+        ],
+        "cards": [
+          [
+            "D_3_S_g.svg",
+            "R_1_S_o.svg",
+            "R_2_S_o.svg"
+          ]
+        ]
+      },
+      "correct_set": {
+        "global_time": [],
+        "trial_time": [],
+        "set": []
+      }
+    }
+  },
+  "Trial10": {
+    "board": [
+      "E_1_T_p.svg",
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "D_2_B_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "R_3_S_g.svg",
+      "E_2_S_g.svg",
+      "D_2_B_g.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "E_1_T_p.svg",
+        "D_2_B_o.svg",
+        "R_3_S_g.svg"
+      ],
+      [
+        "R_1_S_o.svg",
+        "E_3_T_p.svg",
+        "D_2_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          61.744
+        ],
+        "trial_time": [
+          3.845
+        ],
+        "set": [
+          [
+            "E_1_T_p.svg",
+            "D_2_B_o.svg",
+            "R_3_S_g.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial11": {
+    "board": [
+      "R_1_S_o.svg",
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "E_3_T_p.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "E_2_S_g.svg",
+      "D_2_B_g.svg"
+    ],
+    "number_sets": 1,
+    "sets_in_board": [
+      [
+        "R_1_S_o.svg",
+        "E_3_T_p.svg",
+        "D_2_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          66.751
+        ],
+        "trial_time": [
+          5.006
+        ],
+        "set": [
+          [
+            "R_1_S_o.svg",
+            "D_2_B_g.svg",
+            "E_3_T_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial12": {
+    "board": [
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "E_2_S_g.svg",
+      "D_3_B_g.svg",
+      "D_2_T_p.svg",
+      "R_3_S_o.svg",
+      "R_1_T_g.svg",
+      "E_3_S_o.svg",
+      "R_2_B_p.svg"
+    ],
+    "number_sets": 0,
+    "sets_in_board": [],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [
+          71.073
+        ],
+        "trial_time": [
+          1.738
+        ]
+      },
+      "mistakes_set": {
+        "global_time": [
+          69.335
+        ],
+        "trial_time": [
+          2.583
+        ],
+        "cards": [
+          [
+            "R_2_S_g.svg",
+            "R_2_S_o.svg",
+            "E_1_S_o.svg"
+          ]
+        ]
+      },
+      "correct_set": {
+        "global_time": [],
+        "trial_time": [],
+        "set": []
+      }
+    }
+  },
+  "Trial13": {
+    "board": [
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "D_3_B_p.svg",
+      "R_1_T_p.svg",
+      "R_3_T_g.svg",
+      "E_2_S_g.svg",
+      "D_3_B_g.svg",
+      "D_2_T_p.svg",
+      "R_3_S_o.svg",
+      "R_1_T_g.svg",
+      "E_3_S_o.svg",
+      "R_2_B_p.svg"
+    ],
+    "number_sets": 3,
+    "sets_in_board": [
+      [
+        "D_3_B_p.svg",
+        "R_3_T_g.svg",
+        "E_3_S_o.svg"
+      ],
+      [
+        "E_2_S_g.svg",
+        "D_3_B_g.svg",
+        "R_1_T_g.svg"
+      ],
+      [
+        "R_3_S_o.svg",
+        "R_1_T_g.svg",
+        "R_2_B_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          78.425
+        ],
+        "trial_time": [
+          7.352
+        ],
+        "set": [
+          [
+            "D_3_B_p.svg",
+            "R_3_T_g.svg",
+            "E_3_S_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial14": {
+    "board": [
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "R_1_T_p.svg",
+      "E_2_S_g.svg",
+      "D_3_B_g.svg",
+      "D_2_T_p.svg",
+      "R_3_S_o.svg",
+      "R_1_T_g.svg",
+      "R_2_B_p.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "E_2_S_g.svg",
+        "D_3_B_g.svg",
+        "R_1_T_g.svg"
+      ],
+      [
+        "R_3_S_o.svg",
+        "R_1_T_g.svg",
+        "R_2_B_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          81.54
+        ],
+        "trial_time": [
+          3.114
+        ],
+        "set": [
+          [
+            "E_2_S_g.svg",
+            "D_3_B_g.svg",
+            "R_1_T_g.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial15": {
+    "board": [
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "D_3_T_p.svg",
+      "R_2_S_g.svg",
+      "E_1_S_o.svg",
+      "R_1_T_p.svg",
+      "D_2_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "D_1_T_g.svg",
+      "E_1_B_p.svg",
+      "E_1_B_o.svg"
+    ],
+    "number_sets": 1,
+    "sets_in_board": [
+      [
+        "D_3_T_p.svg",
+        "R_2_S_g.svg",
+        "E_1_B_o.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          84.132
+        ],
+        "trial_time": [
+          2.591
+        ],
+        "set": [
+          [
+            "R_2_S_g.svg",
+            "D_3_T_p.svg",
+            "E_1_B_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial16": {
+    "board": [
+      "D_3_S_g.svg",
+      "R_2_S_o.svg",
+      "E_1_S_o.svg",
+      "R_1_T_p.svg",
+      "D_2_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "D_1_T_g.svg",
+      "E_1_B_p.svg",
+      "D_1_T_p.svg",
+      "R_2_S_p.svg",
+      "D_3_S_p.svg"
+    ],
+    "number_sets": 1,
+    "sets_in_board": [
+      [
+        "D_3_S_g.svg",
+        "E_1_S_o.svg",
+        "R_2_S_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          86.47
+        ],
+        "trial_time": [
+          2.337
+        ],
+        "set": [
+          [
+            "D_3_S_g.svg",
+            "E_1_S_o.svg",
+            "R_2_S_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial17": {
+    "board": [
+      "R_2_S_o.svg",
+      "R_1_T_p.svg",
+      "D_2_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "D_1_T_g.svg",
+      "E_1_B_p.svg",
+      "D_1_T_p.svg",
+      "D_3_S_p.svg",
+      "D_1_B_p.svg",
+      "R_3_T_p.svg",
+      "R_1_B_o.svg"
+    ],
+    "number_sets": 1,
+    "sets_in_board": [
+      [
+        "D_2_T_p.svg",
+        "D_3_S_p.svg",
+        "D_1_B_p.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          88.259
+        ],
+        "trial_time": [
+          1.789
+        ],
+        "set": [
+          [
+            "D_2_T_p.svg",
+            "D_3_S_p.svg",
+            "D_1_B_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial18": {
+    "board": [
+      "R_2_S_o.svg",
+      "R_1_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "D_1_T_g.svg",
+      "E_1_B_p.svg",
+      "D_1_T_p.svg",
+      "R_3_T_p.svg",
+      "R_1_B_o.svg",
+      "D_3_B_o.svg",
+      "E_2_T_g.svg",
+      "D_1_T_o.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "D_1_T_g.svg",
+        "D_1_T_p.svg",
+        "D_1_T_o.svg"
+      ],
+      [
+        "R_3_T_p.svg",
+        "E_2_T_g.svg",
+        "D_1_T_o.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          91.929
+        ],
+        "trial_time": [
+          3.669
+        ],
+        "set": [
+          [
+            "D_1_T_p.svg",
+            "D_1_T_g.svg",
+            "D_1_T_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial19": {
+    "board": [
+      "R_2_S_o.svg",
+      "R_1_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "E_1_B_p.svg",
+      "R_3_T_p.svg",
+      "R_1_B_o.svg",
+      "D_3_B_o.svg",
+      "E_2_T_g.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "R_3_B_p.svg",
+      "R_1_B_g.svg",
+      "R_2_T_o.svg",
+      "E_2_B_g.svg"
+    ],
+    "number_sets": 0,
+    "sets_in_board": [],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [
+          98.686
+        ],
+        "trial_time": [
+          1.398
+        ]
+      },
+      "mistakes_set": {
+        "global_time": [
+          94.873,
+          97.287
+        ],
+        "trial_time": [
+          2.943,
+          2.414
+        ],
+        "cards": [
+          [
+            "R_3_S_o.svg",
+            "R_1_T_p.svg",
+            "E_1_B_p.svg"
+          ],
+          [
+            "E_2_T_g.svg",
+            "E_1_B_p.svg",
+            "R_1_T_p.svg"
+          ]
+        ]
+      },
+      "correct_set": {
+        "global_time": [],
+        "trial_time": [],
+        "set": []
+      }
+    }
+  },
+  "Trial20": {
+    "board": [
+      "R_2_S_o.svg",
+      "R_1_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "E_1_B_p.svg",
+      "R_3_T_p.svg",
+      "R_1_B_o.svg",
+      "D_3_B_o.svg",
+      "E_2_T_g.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "R_3_B_p.svg",
+      "R_1_B_g.svg",
+      "R_2_T_o.svg",
+      "E_2_B_g.svg"
+    ],
+    "number_sets": 3,
+    "sets_in_board": [
+      [
+        "R_2_S_o.svg",
+        "R_3_T_p.svg",
+        "R_1_B_g.svg"
+      ],
+      [
+        "R_3_S_o.svg",
+        "R_1_B_o.svg",
+        "R_2_T_o.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "E_3_T_g.svg",
+        "E_2_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          102.584
+        ],
+        "trial_time": [
+          3.897
+        ],
+        "set": [
+          [
+            "R_1_B_g.svg",
+            "R_3_T_p.svg",
+            "R_2_S_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial21": {
+    "board": [
+      "R_1_T_p.svg",
+      "R_3_S_o.svg",
+      "R_2_B_p.svg",
+      "E_1_B_p.svg",
+      "R_1_B_o.svg",
+      "D_3_B_o.svg",
+      "E_2_T_g.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "R_3_B_p.svg",
+      "R_2_T_o.svg",
+      "E_2_B_g.svg"
+    ],
+    "number_sets": 2,
+    "sets_in_board": [
+      [
+        "R_3_S_o.svg",
+        "R_1_B_o.svg",
+        "R_2_T_o.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "E_3_T_g.svg",
+        "E_2_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          107.57
+        ],
+        "trial_time": [
+          4.985
+        ],
+        "set": [
+          [
+            "R_1_B_o.svg",
+            "R_3_S_o.svg",
+            "R_2_T_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial22": {
+    "board": [
+      "R_1_T_p.svg",
+      "R_2_B_p.svg",
+      "E_1_B_p.svg",
+      "D_3_B_o.svg",
+      "E_2_T_g.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "R_3_B_p.svg",
+      "E_2_B_g.svg",
+      "D_3_T_o.svg",
+      "D_1_S_g.svg",
+      "R_2_T_p.svg"
+    ],
+    "number_sets": 4,
+    "sets_in_board": [
+      [
+        "R_1_T_p.svg",
+        "E_2_T_g.svg",
+        "D_3_T_o.svg"
+      ],
+      [
+        "R_2_B_p.svg",
+        "E_1_S_g.svg",
+        "D_3_T_o.svg"
+      ],
+      [
+        "D_3_B_o.svg",
+        "E_1_S_g.svg",
+        "R_2_T_p.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "E_3_T_g.svg",
+        "E_2_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [
+          109.665
+        ],
+        "trial_time": [
+          2.095
+        ]
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [
+          113.222
+        ],
+        "trial_time": [
+          3.557
+        ],
+        "cards": [
+          [
+            "E_2_B_g.svg",
+            "E_2_T_g.svg",
+            "D_3_B_o.svg"
+          ]
+        ]
+      },
+      "correct_set": {
+        "global_time": [
+          117.136
+        ],
+        "trial_time": [
+          3.913
+        ],
+        "set": [
+          [
+            "D_3_T_o.svg",
+            "E_2_T_g.svg",
+            "R_1_T_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial23": {
+    "board": [
+      "R_2_B_p.svg",
+      "E_1_B_p.svg",
+      "D_3_B_o.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "R_3_B_p.svg",
+      "E_2_B_g.svg",
+      "D_1_S_g.svg",
+      "R_2_T_p.svg",
+      "R_3_S_p.svg",
+      "D_2_B_p.svg",
+      "R_3_B_g.svg"
+    ],
+    "number_sets": 4,
+    "sets_in_board": [
+      [
+        "E_1_B_p.svg",
+        "R_3_B_p.svg",
+        "D_2_B_p.svg"
+      ],
+      [
+        "D_3_B_o.svg",
+        "E_1_S_g.svg",
+        "R_2_T_p.svg"
+      ],
+      [
+        "D_3_B_o.svg",
+        "E_3_T_g.svg",
+        "R_3_S_p.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "E_3_T_g.svg",
+        "E_2_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          119.757
+        ],
+        "trial_time": [
+          2.621
+        ],
+        "set": [
+          [
+            "E_1_B_p.svg",
+            "R_3_B_p.svg",
+            "D_2_B_p.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial24": {
+    "board": [
+      "R_2_B_p.svg",
+      "D_3_B_o.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "E_2_B_g.svg",
+      "D_1_S_g.svg",
+      "R_2_T_p.svg",
+      "R_3_S_p.svg",
+      "R_3_B_g.svg",
+      "D_2_T_g.svg",
+      "E_2_S_o.svg",
+      "D_2_T_o.svg"
+    ],
+    "number_sets": 6,
+    "sets_in_board": [
+      [
+        "R_2_B_p.svg",
+        "D_2_T_g.svg",
+        "E_2_S_o.svg"
+      ],
+      [
+        "D_3_B_o.svg",
+        "E_1_S_g.svg",
+        "R_2_T_p.svg"
+      ],
+      [
+        "D_3_B_o.svg",
+        "E_3_T_g.svg",
+        "R_3_S_p.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "E_3_T_g.svg",
+        "E_2_B_g.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "R_3_B_g.svg",
+        "D_2_T_g.svg"
+      ],
+      [
+        "D_1_S_g.svg",
+        "R_3_S_p.svg",
+        "E_2_S_o.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          122.307
+        ],
+        "trial_time": [
+          2.549
+        ],
+        "set": [
+          [
+            "R_2_B_p.svg",
+            "D_2_T_g.svg",
+            "E_2_S_o.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial25": {
+    "board": [
+      "D_3_B_o.svg",
+      "E_1_S_g.svg",
+      "E_3_T_g.svg",
+      "E_2_B_g.svg",
+      "D_1_S_g.svg",
+      "R_2_T_p.svg",
+      "R_3_S_p.svg",
+      "R_3_B_g.svg",
+      "D_2_T_o.svg",
+      "R_3_T_o.svg",
+      "E_3_S_p.svg",
+      "E_1_B_g.svg"
+    ],
+    "number_sets": 5,
+    "sets_in_board": [
+      [
+        "D_3_B_o.svg",
+        "E_1_S_g.svg",
+        "R_2_T_p.svg"
+      ],
+      [
+        "D_3_B_o.svg",
+        "E_3_T_g.svg",
+        "R_3_S_p.svg"
+      ],
+      [
+        "E_1_S_g.svg",
+        "E_3_T_g.svg",
+        "E_2_B_g.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "R_3_B_g.svg",
+        "R_3_T_o.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "D_2_T_o.svg",
+        "E_1_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          124.949
+        ],
+        "trial_time": [
+          2.641
+        ],
+        "set": [
+          [
+            "D_3_B_o.svg",
+            "R_2_T_p.svg",
+            "E_1_S_g.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial26": {
+    "board": [
+      "E_3_T_g.svg",
+      "E_2_B_g.svg",
+      "D_1_S_g.svg",
+      "R_3_S_p.svg",
+      "R_3_B_g.svg",
+      "D_2_T_o.svg",
+      "R_3_T_o.svg",
+      "E_3_S_p.svg",
+      "E_1_B_g.svg",
+      "E_3_S_g.svg",
+      "E_2_B_p.svg",
+      "D_1_B_g.svg"
+    ],
+    "number_sets": 4,
+    "sets_in_board": [
+      [
+        "E_2_B_g.svg",
+        "R_3_B_g.svg",
+        "D_1_B_g.svg"
+      ],
+      [
+        "D_1_S_g.svg",
+        "R_3_T_o.svg",
+        "E_2_B_p.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "R_3_B_g.svg",
+        "R_3_T_o.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "D_2_T_o.svg",
+        "E_1_B_g.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          127.441
+        ],
+        "trial_time": [
+          2.492
+        ],
+        "set": [
+          [
+            "E_2_B_g.svg",
+            "R_3_B_g.svg",
+            "D_1_B_g.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial27": {
+    "board": [
+      "E_3_T_g.svg",
+      "D_1_S_g.svg",
+      "R_3_S_p.svg",
+      "D_2_T_o.svg",
+      "R_3_T_o.svg",
+      "E_3_S_p.svg",
+      "E_1_B_g.svg",
+      "E_3_S_g.svg",
+      "E_2_B_p.svg",
+      "E_2_S_p.svg",
+      "D_2_S_g.svg",
+      "D_3_S_o.svg"
+    ],
+    "number_sets": 3,
+    "sets_in_board": [
+      [
+        "D_1_S_g.svg",
+        "R_3_T_o.svg",
+        "E_2_B_p.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "D_2_T_o.svg",
+        "E_1_B_g.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "E_3_S_g.svg",
+        "D_3_S_o.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          130.657
+        ],
+        "trial_time": [
+          3.215
+        ],
+        "set": [
+          [
+            "E_2_B_p.svg",
+            "R_3_T_o.svg",
+            "D_1_S_g.svg"
+          ]
+        ]
+      }
+    }
+  },
+  "Trial28": {
+    "board": [
+      "E_3_T_g.svg",
+      "R_3_S_p.svg",
+      "D_2_T_o.svg",
+      "E_3_S_p.svg",
+      "E_1_B_g.svg",
+      "E_3_S_g.svg",
+      "E_2_S_p.svg",
+      "D_2_S_g.svg",
+      "D_3_S_o.svg",
+      "E_2_T_o.svg",
+      "E_2_T_p.svg",
+      "D_1_S_o.svg"
+    ],
+    "number_sets": 3,
+    "sets_in_board": [
+      [
+        "R_3_S_p.svg",
+        "D_2_T_o.svg",
+        "E_1_B_g.svg"
+      ],
+      [
+        "R_3_S_p.svg",
+        "E_3_S_g.svg",
+        "D_3_S_o.svg"
+      ],
+      [
+        "E_3_S_p.svg",
+        "E_1_B_g.svg",
+        "E_2_T_o.svg"
+      ]
+    ],
+    "player_behavior": {
+      "mistakes_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "correct_more": {
+        "global_time": [],
+        "trial_time": []
+      },
+      "mistakes_set": {
+        "global_time": [],
+        "trial_time": [],
+        "cards": []
+      },
+      "correct_set": {
+        "global_time": [
+          133.745
+        ],
+        "trial_time": [
+          3.087
+        ],
+        "set": [
+          [
+            "E_1_B_g.svg",
+            "D_2_T_o.svg",
+            "R_3_S_p.svg"
+          ]
+        ]
+      }
+    }
+  }
+}
